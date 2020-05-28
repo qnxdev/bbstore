@@ -1,8 +1,8 @@
-<center>
+<centre>
 <h1>BlackBerry Store</h1>
 <h4>The new storefront for BlackBerry 10</h4>
 <h2>&copy;ASG</h2>
-</center>
+</centre>
 
 In the project directory, you can run:
 
