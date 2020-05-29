@@ -1,6 +1,8 @@
 <centre>
+<a href="https://bb.sz7.me">
 <h1>BlackBerry Store</h1>
-<h4>The new storefront for BlackBerry 10</h4>
+<h4>The new storefront for BlackBerry 10<br>Visit store: https://bb.sz7.me</h4>
+ </a>
 <h2>&copy;ASG</h2>
 </centre>
 
