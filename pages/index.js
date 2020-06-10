@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">BlackBerry Store!</a>
+          Welcome to <a href="https://bb.sz7.me">BlackBerry Store!</a>
         </h1>
 
         <p className="description">
@@ -57,12 +57,14 @@ export default function Home() {
 
       <style jsx>{`
         .container {
+          background-color: #000;
           min-height: 100vh;
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          color: #fff;
         }
 
         main {
