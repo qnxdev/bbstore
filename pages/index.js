@@ -1,13 +1,8 @@
-import Head from 'next/head'
+import Page from '../components/page'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>BlackBerry Store</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Page title={`BlackBerry Store`}>
       <main>
         <h1 className="title">
           Welcome to <a href="https://bb.sz7.me">BlackBerry Store!</a>
@@ -45,18 +40,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a
-          href="https://sz7.me"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by ASG&reg;
-        </a>
-      </footer>
-
       <style jsx>{`
-        .container {
+        .Page {
           background-color: #000;
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -72,15 +57,6 @@ export default function Home() {
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
           justify-content: center;
           align-items: center;
         }
@@ -202,6 +178,6 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+    </Page>
   )
 }
