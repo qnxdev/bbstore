@@ -1,25 +1,25 @@
 import Link from 'next/link';
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <div className='header'>
             <Link href='/'>
-                Logo
+                <p>Logo</p>
             </Link>
             <Link href='/apps'>
-                Apps
+                <p>Apps</p>
             </Link>
             <Link href='/games'>
-                Games
+                <p>Games</p>
             </Link>
             <Link href='/tools'>
-                Tools
+                <p>Tools</p>
             </Link>
             <Link href='/develop'>
-                Develop
+                <p>Develop</p>
             </Link>
             <Link href='/develop'>
-                Github
+                <p>Github</p>
             </Link>
         </div>
     );
