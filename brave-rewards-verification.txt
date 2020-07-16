@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sz7.me
+Token: 4be2ab03e792b59b1befdcb4f2c097b0fef8dba2c30c1cb4c3f882d841ed9bc2
