@@ -7,7 +7,7 @@ export default function Content({ data }) {
     return (
         <div>
             <div>
-                <Icon src={data.icon} alt={data.name} />
+                <Icon src={`/`+data.icon} alt={data.name} />
                 <h2>{data.name}</h2>
                 <h4>{data.vendor}</h4>
                 <img src={star} alt={data.rating + ` star`} />

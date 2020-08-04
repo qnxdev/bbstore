@@ -1,5 +1,5 @@
-export default function Icon(src) {
+export default function Icon({ src }) {
     return (
-        <img src={src} alt="icon" width="100%" />
+        <img src={src} alt="icon" width="10%" />
     );
 }
