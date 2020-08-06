@@ -2,7 +2,7 @@ import Icon from "./icon";
 import Review from "./review";
 import setStar from "./star.js";
 
-export default function Content({ data }) {
+export default function MinContent({ data }) {
     const star = setStar(data.rating);
     return (
         <div>
@@ -61,13 +61,13 @@ export default function Content({ data }) {
                 </div>
             </div>
             <div className='get'>
-                <a href={data.git} className='button sc'>Source Code</a>
                 <a href={`/download/` + data.download} className='button dl'>Download</a>
             </div>
             <div className='detail'>
                 <div className='details'>
                     <h4>Version: {data.version}</h4>
                     <p>{data.description}</p>
+                    <p>How to: {data.description}</p>
                     {/*<div>
                     <h3>Screenshots</h3>
                     <img src={data.scr[0]} alt="Image not available" />

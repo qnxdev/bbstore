@@ -12,67 +12,52 @@ export default function Home() {
         <div className="grid">
           <a href="https://www.github.com/qnxdev/bbstore" className="card">
             <h3>Source Code &rarr;</h3>
-            <p>Contribute to BB10</p>
+            <p>Contribute to BlackBerry Store</p>
           </a>
 
           <a href="https://developer.blackberry.com" className="card">
             <h3>Learn &rarr;</h3>
-            <p>BB10 Apps</p>
+            <p>Develop your own BB10 Apps</p>
           </a>
-
-          <a href="https://developer.blackberry.com" className="card">
-            <h3>Examples </h3>
-            <p>BB10 Apps</p>
-          </a>
-
-          <a
-            href="https://github.com/"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your website.
-            </p>
-          </a>
-        </div>
-        <div className='all'>
-          <div id='title'>
-            <h2>Apps</h2>
-          </div>
-          <div className='top'>
-            <h4 className='type'>Top Rated</h4>
-            <div className='array'>
-              {AppData.map(app => (
-                <a href={`/apps/` + app.appid} className='item'>
-                  <img src={'/' + app.icon} alt='Icon' className='icon' />
-                  <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
-                </a>
-              ))}
-              <a href='/apps' className='item'>
-                <div className='arrow' title='More Apps'>
-                  <img src='arrow.png' alt='Next' className='img' />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className='new'>
-            <h4 className='type'>New Arrivals</h4>
-            <div className='array'>
-              {AppData.map(app => (
-                <a href={`/apps/` + app.appid} className='item'>
-                  <img src={'/' + app.icon} alt='Icon' className='icon' />
-                  <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
-                </a>
-              ))}
-              <a href='/apps' className='item'>
-                <div className='arrow' title='More Apps'>
-                  <img src='arrow.png' alt='Next' className='img' />
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
       </main>
+      <div className='all'>
+        <div id='title'>
+          <h2>Apps</h2>
+        </div>
+        <div className='top'>
+          <h4 className='type'>Top Rated</h4>
+          <div className='array'>
+            {AppData.map(app => (
+              <a href={`/apps/` + app.appid} className='item'>
+                <img src={'/' + app.icon} alt='Icon' className='icon' />
+                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+              </a>
+            ))}
+            <a href='/apps' className='item'>
+              <div className='arrow' title='More Apps'>
+                <img src='arrow.png' alt='Next' className='img' />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className='new'>
+          <h4 className='type'>New Arrivals</h4>
+          <div className='array'>
+            {AppData.map(app => (
+              <a href={`/apps/` + app.appid} className='item'>
+                <img src={'/' + app.icon} alt='Icon' className='icon' />
+                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+              </a>
+            ))}
+            <a href='/apps' className='item'>
+              <div className='arrow' title='More Apps'>
+                <img src='arrow.png' alt='Next' className='img' />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
       <style jsx>{`
         .Page {
@@ -109,7 +94,10 @@ export default function Home() {
           color: inherit;
           text-decoration: none;
         }
-
+        .title {
+          color: #ccc;
+          text-decoration: none;
+        }
         .title a {
           color: #0070f3;
           text-decoration: none;
@@ -145,27 +133,29 @@ export default function Home() {
           display: flex;
           align-items: center;
           justify-content: center;
-          flex-wrap: wrap;
 
           max-width: 800px;
           margin-top: 3rem;
         }
 
         .card {
+          min-width: 25em;
           margin: 1rem;
-          flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;
-          color: inherit;
+          color: #ccc;
           text-decoration: none;
-          border: 1px solid #eaeaea;
+          border: 1px solid #ccc;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
 
         .card:hover,
         .card:focus,
-        .card:active {
+        .card:active,
+        .item:hover,
+        .item:focus,
+        .item:active {
           color: #0070f3;
           border-color: #0070f3;
         }
@@ -185,10 +175,13 @@ export default function Home() {
           height: 1em;
         }
         .all {
+          border-top: 1px solid #222;
+          margin-top: 2em;
           z-index: 1;
       }
       #title {
-          margin: 0 15rem; 
+          margin: 0 15rem;
+          color: #ddd;
       }
       .array {
           display: flex;

@@ -53,6 +53,12 @@ export default function Header() {
                     #github {
                         margin: 0;
                         margin-left: 5px;
+                        color: #ddd;
+                    }
+                    p {
+                        color: #aaa;
+                    }
+                    p:hover {
                         color: #fff;
                     }
                 `}

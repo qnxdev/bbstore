@@ -12,10 +12,13 @@ export default function Page({ title, description, children }) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Copyright &copy; 2020 ASG&reg;. All rights reserved.
+                    Copyright &copy; 2020 <a className='blue'>ASG&reg;</a>. All rights reserved.
                 </a>
             </footer>
             <style jsx>{`
+            .blue {
+                color: #0070f3;
+            }
                 footer {
                     margin-top: 25vh;
                     width: 100%;
