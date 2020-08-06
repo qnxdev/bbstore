@@ -1,17 +1,14 @@
-import Page from '../components/page'
+import Page from '../components/page';
+import { AppData } from '../appdata';
 
 export default function Home() {
   return (
     <Page title={`BlackBerry Store`}>
       <main>
+        {/*<input type='text' placeholder='Search' className='search'/>*/}
         <h1 className="title">
           Welcome to <a href="https://bb.sz7.me">BlackBerry Store!</a>
         </h1>
-
-        <p className="description">
-          Get started..
-        </p>
-
         <div className="grid">
           <a href="https://www.github.com/qnxdev/bbstore" className="card">
             <h3>Source Code &rarr;</h3>
@@ -29,7 +26,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/" 
+            href="https://github.com/"
             className="card"
           >
             <h3>Deploy &rarr;</h3>
@@ -37,6 +34,43 @@ export default function Home() {
               Instantly deploy your website.
             </p>
           </a>
+        </div>
+        <div className='all'>
+          <div id='title'>
+            <h2>Apps</h2>
+          </div>
+          <div className='top'>
+            <h4 className='type'>Top Rated</h4>
+            <div className='array'>
+              {AppData.map(app => (
+                <a href={`/apps/` + app.appid} className='item'>
+                  <img src={'/' + app.icon} alt='Icon' className='icon' />
+                  <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+                </a>
+              ))}
+              <a href='/apps' className='item'>
+                <div className='arrow' title='More Apps'>
+                  <img src='arrow.png' alt='Next' className='img' />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className='new'>
+            <h4 className='type'>New Arrivals</h4>
+            <div className='array'>
+              {AppData.map(app => (
+                <a href={`/apps/` + app.appid} className='item'>
+                  <img src={'/' + app.icon} alt='Icon' className='icon' />
+                  <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+                </a>
+              ))}
+              <a href='/apps' className='item'>
+                <div className='arrow' title='More Apps'>
+                  <img src='arrow.png' alt='Next' className='img' />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </main>
 
@@ -98,11 +132,6 @@ export default function Home() {
           text-align: center;
         }
 
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
         code {
           background: #fafafa;
           border-radius: 5px;
@@ -155,6 +184,56 @@ export default function Home() {
         .logo {
           height: 1em;
         }
+        .all {
+          z-index: 1;
+      }
+      #title {
+          margin: 0 15rem; 
+      }
+      .array {
+          display: flex;
+          justify-content: flex-start;
+          margin: 1rem 5rem;
+          border: 1px solid #222;
+          border-radius: 15px;
+          padding: 1rem;
+          z-index: 3;
+      }
+      .type {
+          margin: 1rem 5rem;
+          color: #0070f3;
+      }
+      .item {
+          min-width: 10rem;
+          text-align: center;
+          border: 1px solid #111;
+          border-radius: 25px;
+          margin: 1rem;
+          padding: 1rem;
+          text-decoration: none;
+          color: #bbb;
+          z-index: 2;
+      }
+      .icon {
+          width: 75%;
+      }
+      .apptext {
+          text-align: center;
+          margin: 5px 0;
+          font-weight: normal;
+      }
+      .arrow {
+          border-radius: 45px;
+          width: 8rem;
+          align-items: center;
+          padding: 1.5rem;
+          right: 0;
+          z-index: 10;
+          cursor: pointer;
+      }
+      .img {
+          width: 75%;
+      }
 
         @media (max-width: 600px) {
           .grid {
@@ -169,6 +248,9 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
+          background: #000;
+          color: #fff;
+          font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto, Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue, sans-serif;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
