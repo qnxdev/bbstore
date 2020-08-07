@@ -96,6 +96,22 @@ export default function Listing({ data, title, url }) {
                                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
                             </a>
                         ))}
+                        <a href={url + app.appid} className='item'>
+                                <img src={'/' + app.icon} alt='Icon' className='icon' />
+                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+                            </a>
+                            <a href={url + app.appid} className='item'>
+                                <img src={'/' + app.icon} alt='Icon' className='icon' />
+                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+                            </a>
+                            <a href={url + app.appid} className='item'>
+                                <img src={'/' + app.icon} alt='Icon' className='icon' />
+                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+                            </a>
+                            <a href={url + app.appid} className='item'>
+                                <img src={'/' + app.icon} alt='Icon' className='icon' />
+                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
+                            </a>
                     </div>
                 </div>
             </div>
