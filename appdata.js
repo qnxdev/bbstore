@@ -5,10 +5,10 @@ export const AppData =
         "name": "File Manager for BlackBerry 10",
         "download": "FileManager.bar",
         "git": "https://github.com",
-        "icon": "app.png",
+        "icon": "FileManager.png",
         "vendor": "BlackBerry Limited®",
-        "rating": 2.5,
-        "version": "1.0",
+        "rating": 5,
+        "version": "11.33.0.390",
         "description": "This is the native file manager that comes pre-installed on BlackBerry 10 devices.",
         "reviews": [
             {
