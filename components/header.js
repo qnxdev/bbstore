@@ -98,7 +98,6 @@ export default function Header() {
                         .mobile {
                             display:flex;
                             border-top: 1px solid #222;
-                            border-radius: 25px;
                         }
                         .mob {
                             color: #ccc;

@@ -50,6 +50,15 @@ export default function Content({ data }) {
                         border-radius: 15px;
                         padding: 1% 5%;
                     }
+                    @media (max-width: 640px) {
+                        .detail {
+                            padding: 0 10%;
+                        }
+                        .button {
+                            font-size: inherit;
+                            padding: 10px 2rem;
+                        }
+                    }
                 `}
             </style>
             <div className='cmain'>

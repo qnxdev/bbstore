@@ -9,6 +9,8 @@ export default function Listing({ data, title, url }) {
                     margin: 0 15rem; 
                 }
                 .array {
+                    display: flex;
+                    flex-wrap: wrap;
                     margin: 1rem 5rem;
                     border: 1px solid #222;
                     border-radius: 15px;
@@ -20,7 +22,6 @@ export default function Listing({ data, title, url }) {
                     color: #0070f3;
                 }
                 .item {
-                    display: inline-block;
                     min-width: 0rem;
                     text-align: center;
                     border: 1px solid #111;

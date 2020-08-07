@@ -8,12 +8,12 @@ export default function AppPage() {
     const router = useRouter()
     const id = router.asPath.slice(7);
     const app = ToolData.find(app => app.appid === id);
-    if (!app) return <Error statusCode={404} />;
     if (app) {
         return (
             <Page title={app.name + ` - BlackBerry Store`}>
                 <MinContent data={app} />
             </Page>
         );
-    }
+    };
+    if (!app) return <Error statusCode={404} />;
 }

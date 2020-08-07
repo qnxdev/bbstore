@@ -10,6 +10,7 @@ export const ToolData =
         "rating": 2.5,
         "version": "1.0",
         "description": "This is the native file manager that comes pre-installed on BlackBerry 10 devices.",
+        "howto": "Install and run the software.",
         "reviews": [
             {
                 "name": "Anonymous",
@@ -34,6 +35,7 @@ export const ToolData =
         "rating": 2.5,
         "version": "1.0",
         "description": "Native document reader for BlackBerry 10.",
+        "howto": "Install and run the software.",
         "reviews": [
             {
                 "name": "Anonymous",
@@ -58,6 +60,7 @@ export const ToolData =
         "rating": 2.5,
         "version": "1.0",
         "description": "BBtube YouTube client.",
+        "howto": "Install and run the software.",
         "reviews": [
             {
                 "name": "Anonymous",
