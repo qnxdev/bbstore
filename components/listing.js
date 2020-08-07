@@ -9,9 +9,6 @@ export default function Listing({ data, title, url }) {
                     margin: 0 15rem; 
                 }
                 .array {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: flex-start;
                     margin: 1rem 5rem;
                     border: 1px solid #222;
                     border-radius: 15px;
@@ -23,6 +20,7 @@ export default function Listing({ data, title, url }) {
                     color: #0070f3;
                 }
                 .item {
+                    display: inline-block;
                     min-width: 0rem;
                     text-align: center;
                     border: 1px solid #111;
@@ -46,8 +44,8 @@ export default function Listing({ data, title, url }) {
                     text-align: center;
                     margin: 5px auto;
                     font-weight: normal;
-                    font-size: 12px;
-                }@media (max-width: 960px) {
+                }
+                @media (max-width: 960px) {
                     .array {
                       padding: 1%;
                       margin: 1rem 2rem;
@@ -67,14 +65,15 @@ export default function Listing({ data, title, url }) {
                     }
                     .array {
                       margin: 1rem;
-                      flex-wrap: unset;
-                      flex-wrap: nowrap;
 
                     }
                     .item {
                         border-radius: 15px;
                         min-height: 30%;
                         padding: 3%;
+                    }
+                    .apptext {
+                    font-size: 12px;
                     }
                   }
                   @media (max-width: 480px) {
@@ -96,22 +95,6 @@ export default function Listing({ data, title, url }) {
                                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
                             </a>
                         ))}
-                        <a href={url + app.appid} className='item'>
-                                <img src={'/' + app.icon} alt='Icon' className='icon' />
-                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
-                            </a>
-                            <a href={url + app.appid} className='item'>
-                                <img src={'/' + app.icon} alt='Icon' className='icon' />
-                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
-                            </a>
-                            <a href={url + app.appid} className='item'>
-                                <img src={'/' + app.icon} alt='Icon' className='icon' />
-                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
-                            </a>
-                            <a href={url + app.appid} className='item'>
-                                <img src={'/' + app.icon} alt='Icon' className='icon' />
-                                <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
-                            </a>
                     </div>
                 </div>
             </div>
