@@ -67,6 +67,9 @@ export default function Listing({ data, title, url }) {
                     }
                     .array {
                       margin: 1rem;
+                      flex-wrap: unset;
+                      flex-wrap: nowrap;
+
                     }
                     .item {
                         border-radius: 15px;
