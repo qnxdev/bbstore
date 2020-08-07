@@ -95,7 +95,7 @@ export default function Home() {
           text-decoration: none;
         }
         .title {
-          color: #ccc;
+          color: #eee;
           text-decoration: none;
         }
         .title a {
@@ -239,6 +239,9 @@ export default function Home() {
       }
       }
       @media (max-width: 640px) {
+        #title {
+          margin: 0 2rem;
+        }
         .card {
           min-width: 80%;
         }

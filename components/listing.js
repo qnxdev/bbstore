@@ -23,7 +23,7 @@ export default function Listing({ data, title, url }) {
                     color: #0070f3;
                 }
                 .item {
-                    min-width: 10rem;
+                    min-width: 0rem;
                     text-align: center;
                     border: 1px solid #111;
                     border-radius: 25px;
@@ -44,9 +44,41 @@ export default function Listing({ data, title, url }) {
                 }
                 .apptext {
                     text-align: center;
-                    margin: 5px 0;
+                    margin: 5px auto;
                     font-weight: normal;
-                }
+                    font-size: 12px;
+                }@media (max-width: 960px) {
+                    .array {
+                      padding: 1%;
+                      margin: 1rem 2rem;
+                  }
+                  .item {
+                      min-width: 0%;
+                      margin: 1%;
+                      padding: 1%;
+                  }
+                  }
+                  @media (max-width: 640px) {
+                    #title {
+                      margin: 0 2rem;
+                    }
+                    .icon {
+                      width: 30%;
+                    }
+                    .array {
+                      margin: 1rem;
+                    }
+                    .item {
+                        border-radius: 15px;
+                        min-height: 30%;
+                        padding: 3%;
+                    }
+                  }
+                  @media (max-width: 480px) {
+                    .item {
+                        max-width: 30%;
+                    }
+                  }
             `}</style>
             <div className='all'>
                 <div id='title'>
