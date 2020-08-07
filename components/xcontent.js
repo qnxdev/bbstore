@@ -50,6 +50,10 @@ export default function MinContent({ data }) {
                         border-radius: 15px;
                         padding: 1% 5%;
                     }
+                    .blue {
+                        color: #0070f3;
+                        font-weight: bold;
+                    }
                 `}
             </style>
             <div className='cmain'>
@@ -67,7 +71,7 @@ export default function MinContent({ data }) {
                 <div className='details'>
                     <h4>Version: {data.version}</h4>
                     <p>{data.description}</p>
-                    <p>How to: {data.description}</p>
+                    <p><a className='blue'>How to:</a> {data.description}</p>
                     {/*<div>
                     <h3>Screenshots</h3>
                     <img src={data.scr[0]} alt="Image not available" />

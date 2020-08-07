@@ -34,7 +34,7 @@ export default function Home() {
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
             ))}
-            <a href='/apps' className='item'>
+            <a href='/apps' className='item go'>
               <div className='arrow' title='More Apps'>
                 <img src='arrow.png' alt='Next' className='img' />
               </div>
@@ -50,7 +50,7 @@ export default function Home() {
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
             ))}
-            <a href='/apps' className='item'>
+            <a href='/apps' className='item go'>
               <div className='arrow' title='More Apps'>
                 <img src='arrow.png' alt='Next' className='img' />
               </div>
@@ -118,15 +118,6 @@ export default function Home() {
         .title,
         .description {
           text-align: center;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
 
         .grid {
@@ -217,9 +208,9 @@ export default function Home() {
       }
       .arrow {
           border-radius: 45px;
-          width: 8rem;
+          width: 100%;
           align-items: center;
-          padding: 1.5rem;
+          padding: 15%;
           right: 0;
           z-index: 10;
           cursor: pointer;
@@ -227,13 +218,58 @@ export default function Home() {
       .img {
           width: 75%;
       }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
+      @media (max-width: 960px) {
+        .title {
+          font-size: 3rem;
         }
+        .card {
+          min-width: 18rem;
+        }
+        .array {
+          padding: 1%;
+          margin: 1rem 2rem;
+      }
+      .item {
+          min-width: 20%;
+          margin: 1%;
+          padding: 1%;
+      }
+      .arrow {
+          padding: 15%;
+      }
+      }
+      @media (max-width: 640px) {
+        .card {
+          min-width: 80%;
+        }
+        .grid {
+          width: 100%;
+          flex-direction: column;
+        }
+        .img, .icon {
+          width: 50%;
+        }
+        .array {
+          margin: 1rem;
+        }
+        .arrow {
+          padding: 30% 15%;
+        }
+      }
+      @media (max-width: 480px) {
+        .item {
+          border: none;
+          border-right: 1px solid #222;
+          border-radius: 0px;
+        }
+        .go {
+          border: none;
+        }
+        .arrow {
+          padding: 50% 15%;
+        }
+      }
+      
       `}</style>
 
       <style jsx global>{`

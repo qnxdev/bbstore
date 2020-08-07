@@ -61,6 +61,22 @@ export default function Header() {
                     p:hover {
                         color: #fff;
                     }
+                    @media (max-width: 960px) {
+                        #hcont {                       
+                            margin: 0.5rem 4rem;
+                        }
+                    }
+                    @media (max-width: 720px) {
+                        #hcont {                       
+                            margin: 0.5rem 1rem;
+                        }
+                    }
+                    @media (max-width: 480px) {
+                        #hcont {
+                            margin: 0.5rem 0.5rem;
+                            
+                        }
+                    }
                 `}
             </style>
         </div>

@@ -36,6 +36,8 @@ export default function Page({ title, description, children }) {
             <style jsx global>{`
                 html,
                 body {
+                    min-width: 200px;
+                    max-width: 100vw;
                     padding: 0;
                     margin: 0;
                     background: #000;
