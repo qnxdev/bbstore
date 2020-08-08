@@ -85,6 +85,12 @@ export default function Listing({ data, title, url }) {
                     font-weight: normal;
                 }
                 @media (max-width: 960px) {
+                   #title {
+                       margin: 0rem 8rem;
+                   }
+                   .search {
+                       margin: auto 0 auto 50%;
+                   }
                     .array {
                       padding: 1%;
                       margin: 1rem 2rem;
@@ -100,11 +106,11 @@ export default function Listing({ data, title, url }) {
                       margin: 0 2rem;
                     }
                     .search {
-                        margin: auto 0 auto 60%;
+                        margin: auto 0 auto 45%;
                         width: 8rem;
                     }
                     .icon {
-                      width: 30%;
+                      width: 80%;
                     }
                     .array {
                       margin: 1rem;
@@ -120,8 +126,14 @@ export default function Listing({ data, title, url }) {
                     }
                   }
                   @media (max-width: 480px) {
+                      #title {
+                          font-size: 0.7rem;
+                      }
+                      .array {
+                          margin: 0.5rem;
+                      }
                     .search {
-                        margin: auto 0 auto 50%;
+                        margin: auto 0 auto 45%;
                         width: 6rem;
                         padding: 0.2rem;
                     }.search:focus,
@@ -138,7 +150,7 @@ export default function Listing({ data, title, url }) {
             `}</style>
             <div className='all'>
                 <div id='title'>
-                    <h2>{title}</h2>
+                    <h2 id='text'>{title}</h2>
                     <input type='text' onChange={handleChange} placeholder='Search' className='search' />
                 </div>
                 <div className='top'>

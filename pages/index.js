@@ -295,7 +295,7 @@ export default function Home() {
           flex-direction: column;
         }
         .img, .icon {
-          width: 50%;
+          width: 80%;
         }
         .array {
           margin: 1rem;
@@ -305,6 +305,9 @@ export default function Home() {
         }
       }
       @media (max-width: 480px) {
+        main {
+          padding: 2rem 0;
+        }
         .item {
           border: none;
           border-right: 1px solid #222;
