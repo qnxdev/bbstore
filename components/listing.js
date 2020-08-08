@@ -1,4 +1,25 @@
+import { useState, useEffect } from 'react';
+
 export default function Listing({ data, title, url }) {
+    const [searchTerm, setSearchTerm] = useState("");
+    const [resObj, setResObj] = useState([]);
+    const handleChange = e => {
+        setSearchTerm(e.target.value);
+    };
+    React.useEffect(() => {
+        setResObj(data);
+        const results = data.filter(
+            function(item) 
+            {
+                if(item.name.toLowerCase().includes(searchTerm.toLowerCase())
+                    ||
+                    item.description.toLowerCase().includes(searchTerm.toLowerCase())
+                )
+                    return item;
+            }
+        );
+        setResObj(results);
+    }, [searchTerm]);
     return (
         <div>
             <style jsx>{`
@@ -6,7 +27,24 @@ export default function Listing({ data, title, url }) {
                     z-index: 1;
                 }
                 #title {
-                    margin: 0 15rem; 
+                    margin: 0 15rem;
+                    display: flex;
+                }
+                .search {
+                    margin: auto 0 auto 70%;
+                    background: #000;
+                    color: #fff;
+                    border: 1px solid #222;
+                    border-radius: 7px;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 0.4rem;
+                }
+                .search:focus,
+                .search:hover,
+                .search:active
+                {
+                    border-color: #0070f3;
                 }
                 .array {
                     display: flex;
@@ -61,6 +99,10 @@ export default function Listing({ data, title, url }) {
                     #title {
                       margin: 0 2rem;
                     }
+                    .search {
+                        margin: auto 0 auto 60%;
+                        width: 8rem;
+                    }
                     .icon {
                       width: 30%;
                     }
@@ -78,6 +120,17 @@ export default function Listing({ data, title, url }) {
                     }
                   }
                   @media (max-width: 480px) {
+                    .search {
+                        margin: auto 0 auto 50%;
+                        width: 6rem;
+                        padding: 0.2rem;
+                    }.search:focus,
+                    .search:hover,
+                    .search:active
+                    {
+                        margin: auto 0 auto 30%;
+                        width: 10rem;
+                    }
                     .item {
                         max-width: 30%;
                     }
@@ -86,16 +139,19 @@ export default function Listing({ data, title, url }) {
             <div className='all'>
                 <div id='title'>
                     <h2>{title}</h2>
-                    {/*<input type='text' placeholder='Search' className='search'/>*/}
+                    <input type='text' onChange={handleChange} placeholder='Search' className='search' />
                 </div>
                 <div className='top'>
                     <div className='array'>
-                        {data.map(app => (
-                            <a href={url + app.appid} className='item'>
+                        {resObj.map(app => (
+                            <a href={url + app.appid} className='item' key={app.appid}>
                                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
                             </a>
                         ))}
+                        {resObj.length==0 && (
+                            <h4>Nothing found.</h4>
+                        )}
                     </div>
                 </div>
             </div>

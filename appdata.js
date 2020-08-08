@@ -2,7 +2,7 @@ export const AppData =
 [
     {
         "appid": "0001",
-        "name": "Bid10 Twitter Client",
+        "name": "Bird10 Twitter Client",
         "download": "Bird10.bar",
         "git": "https://github.com/SimeDax",
         "icon": "Bird10.png",
@@ -48,6 +48,54 @@ export const AppData =
     },
     {
         "appid": "0003",
+        "name": "AppWorld",
+        "download": "AppWorld.bar",
+        "git": "https://github.com/qnxdev/bbstore",
+        "icon": "BlackBerryWorld.png",
+        "vendor": "BlackBerry Limited®",
+        "rating": 2.5,
+        "version": "5.4.0.8",
+        "description": "Updated AppWorld for BlackBerry 10.",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },
+    {
+        "appid": "0004",
+        "name": "Adobe Reader",
+        "download": "AdobeReader.bar",
+        "git": "https://github.com/qnxdev/bbstore/blob/master/appdata.js",
+        "icon": "AdobeReader.png",
+        "vendor": "BlackBerry Limited®",
+        "rating": 2.5,
+        "version": "10.4.4.25",
+        "description": "Native PDF document reader for BlackBerry 10.",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },
+    {
+        "appid": "0005",
         "name": "File Manager for BlackBerry 10",
         "download": "FileManager.bar",
         "git": "https://github.com",
@@ -69,29 +117,5 @@ export const AppData =
             }
         ],
         "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
-    },
-    {
-        "appid": "0004",
-        "name": "Adobe Reader",
-        "download": "AdobeReader.bar",
-        "git": "https://github.com/qnxdev/bbstore/blob/master/appdata.js",
-        "icon": "app.png",
-        "vendor": "BlackBerry Limited®",
-        "rating": 2.5,
-        "version": "1.0",
-        "description": "Native document reader for BlackBerry 10.",
-        "reviews": [
-            {
-                "name": "Anonymous",
-                "rated": 5.0,
-                "review": "Good App"
-            },
-            {
-                "name": "Anonymous",
-                "rated": 3.0,
-                "review": "Not Bad"
-            }
-        ],
-        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
-    },
+    }
 ];

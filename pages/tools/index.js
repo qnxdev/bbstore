@@ -5,7 +5,7 @@ import Listing from '../../components/listing';
 export default function Apps() {
     return (
         <Page title={`Tools - BlackBerry Store`}>
-            <Listing data={ToolData} title='BlackBerry 10 Tools' url='/tools/' />
+            <Listing data={ToolData} title='Tools' url='/tools/' />
         </Page >
     );
 }

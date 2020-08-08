@@ -2,14 +2,14 @@ export const GameData =
 [
     {
         "appid": "0001",
-        "name": "File Manager for BlackBerry 10",
-        "download": "FileManager.bar",
+        "name": "Sample Game 2",
+        "download": "AdoeReader.bar",
         "git": "https://github.com/qnxdev/bbstore/tree/master/public/download",
         "icon": "app.png",
         "vendor": "BlackBerry Limited®",
         "rating": 2.5,
         "version": "1.0",
-        "description": "This is the native file manager that comes pre-installed on BlackBerry 10 devices.",
+        "description": "Native game.",
         "reviews": [
             {
                 "name": "Anonymous",
@@ -26,14 +26,14 @@ export const GameData =
     },
     {
         "appid": "0002",
-        "name": "Adobe Reader",
-        "download": "AdobeReader.bar",
+        "name": "Sample Game 2",
+        "download": "AdoeReader.bar",
         "git": "https://github.com/qnxdev/bbstore/tree/master/public/download",
         "icon": "app.png",
         "vendor": "BlackBerry Limited®",
         "rating": 2.5,
         "version": "1.0",
-        "description": "Native document reader for BlackBerry 10.",
+        "description": "Native game.",
         "reviews": [
             {
                 "name": "Anonymous",
@@ -50,14 +50,14 @@ export const GameData =
     },
     {
         "appid": "0003",
-        "name": "Youtube",
-        "download": "BBtube.bar",
+        "name": "Sample Game 2",
+        "download": "AdoeReader.bar",
         "git": "https://github.com/qnxdev/bbstore/tree/master/public/download",
         "icon": "app.png",
-        "vendor": "BBtube",
+        "vendor": "BlackBerry Limited®",
         "rating": 2.5,
         "version": "1.0",
-        "description": "BBtube YouTube client.",
+        "description": "Native game.",
         "reviews": [
             {
                 "name": "Anonymous",
@@ -69,6 +69,8 @@ export const GameData =
                 "rated": 3.0,
                 "review": "Not Bad"
             }
-        ]
-    }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },
+    
 ];

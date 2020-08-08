@@ -3,6 +3,8 @@ import { AppData } from '../appdata';
 /*import { GameData } from '../gamedata';*/
 
 export default function Home() {
+  const list = ['0001', '0002', '0003', '0004']
+  const showcase = AppData.filter(app => app.appid == '0001' || app.appid == '0002' || app.appid == '0003' || app.appid == '0004' || app.appid == '0005');
   return (
     <Page title={`BlackBerry Store`}>
       <main>
@@ -29,8 +31,8 @@ export default function Home() {
         <div className='top'>
           <h4 className='type'>Top Rated</h4>
           <div className='array'>
-            {AppData.map(app => (
-              <a href={`/apps/` + app.appid} key={app.appid} className='item'>
+            {showcase.map(app => (
+              <a href={`/apps/` + app.appid} id={(app.appid == '0004' || app.appid == '0005') ? ('none') : ('')} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
@@ -45,8 +47,8 @@ export default function Home() {
         <div className='new'>
           <h4 className='type'>New Arrivals</h4>
           <div className='array'>
-            {AppData.map(app => (
-              <a href={`/apps/` + app.appid} key={app.appid} className='item'>
+            {showcase.map(app => (
+              <a href={`/apps/` + app.appid} id={(app.appid == '0004' || app.appid == '0005') ? ('none') : ('')} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
@@ -255,6 +257,11 @@ export default function Home() {
       }
       .img {
           width: 75%;
+      }
+      @media (max-width: 1280px) {
+        #none {
+          display: none;
+        }
       }
       @media (max-width: 960px) {
         .title {
