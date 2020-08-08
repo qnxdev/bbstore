@@ -71,7 +71,7 @@ export default function Content({ data }) {
             </div>
             <div className='get'>
                 <a href={data.git} className='button sc'>Source Code</a>
-                <a href={`/download/` + data.download} className='button dl'>Download</a>
+                <a target='_blank' href={(data.download.slice(0,4)=='http')?(data.download):(`/download/` + data.download)} className='button dl'>Download</a>
             </div>
             <div className='detail'>
                 <div className='details'>

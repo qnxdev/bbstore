@@ -1,6 +1,6 @@
 import Page from '../components/page';
 import { AppData } from '../appdata';
-import { GameData } from '../gamedata';
+/*import { GameData } from '../gamedata';*/
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
           <h4 className='type'>Top Rated</h4>
           <div className='array'>
             {AppData.map(app => (
-              <a href={`/apps/` + app.appid} className='item'>
+              <a href={`/apps/` + app.appid} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
@@ -46,7 +46,7 @@ export default function Home() {
           <h4 className='type'>New Arrivals</h4>
           <div className='array'>
             {AppData.map(app => (
-              <a href={`/apps/` + app.appid} className='item'>
+              <a href={`/apps/` + app.appid} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
@@ -58,7 +58,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        
+        {/*
         <div id='title'>
           <h2>Games</h2>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      
+            */}
       </div>
 
       <style jsx>{`
