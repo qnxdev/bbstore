@@ -139,5 +139,28 @@ export const ToolData =
                 "review": "Not Bad"
             }
         ]
+    },
+    {
+        "appid": "0007",
+        "name": "BB10 PlayBook App Manager",
+        "download": "https://chrome.google.com/webstore/detail/bb10-playbook-app-manager/kmbaalodpmjjhpobkgljnelbpblnikkp",
+        "icon": "ThirdParty.svg",
+        "vendor": "GridBook",
+        "rating": 2.5,
+        "version": "2.2.2",
+        "description": "Sideloading tool for BlackBerry 10. Sideload apps from Google Chrome or Chromium based browsers, Edge, Brave.",
+        "howto": "Install and open the extension. Connect the device and sideload apps. See here - https://www.gridbook.org/pb-app-mgr/",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
     }
 ];
