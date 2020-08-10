@@ -97,5 +97,29 @@ export const DevData =
                 "review": "Not Bad"
             }
         ]
+    },
+    {
+        "appid": "0005",
+        "name": "Sample Apps",
+        "download": "https://developer.blackberry.com/native/sampleapps/",
+        "git": "https://github.com",
+        "icon": "ThirdParty.png",
+        "vendor": "BlackBerry Limited®",
+        "rating": 2.5,
+        "version": "Docs",
+        "description": "These sample apps are available as .zip files for you to download directly and then import into your IDE. All of the samples are also available on GitHub, and you can browse them there or clone the entire repository. https://github.com/blackberry",
+        "howto": "Try Samples",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
     }
 ];
