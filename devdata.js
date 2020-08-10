@@ -103,7 +103,7 @@ export const DevData =
         "name": "Sample Apps",
         "download": "https://developer.blackberry.com/native/sampleapps/",
         "git": "https://github.com",
-        "icon": "ThirdParty.png",
+        "icon": "ThirdParty.svg",
         "vendor": "BlackBerry Limited®",
         "rating": 2.5,
         "version": "Docs",
