@@ -114,6 +114,49 @@ export const AppData =
                 "name": "Anonymous",
                 "rated": 3.0,
                 "review": "Not Bad"
+            },{
+        "appid": "0006",
+        "name": "GeoToolBox",
+        "download": "GeoToolBoxUI-1_0_3_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "GeoToolBox.jpg",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "1.0.3.1",
+        "description": "Goe Tool Box",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },{
+        "appid": "0007",
+        "name": "Taken Camera App",
+        "download": "Taken-1_2_1_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "TakenCamera.jpg",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "1.2.1.1",
+        "description": "Taken Camera App",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
             }
         ],
         "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
