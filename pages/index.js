@@ -6,16 +6,16 @@ export default function Home() {
   const list = ['0001', '0002', '0003', '0004']
   const showcase = AppData.filter(app => app.appid == '0001' || app.appid == '0002' || app.appid == '0003' || app.appid == '0004' || app.appid == '0005');
   return (
-    <Page title={`BlackBerry Store`}>
+    <Page title={`BBS Store | BB10 Application Store`}>
       <main>
         {/*<input type='text' placeholder='Search' className='search'/>*/}
         <h1 className="title">
-          Welcome to <a href="https://bb.sz7.me">BlackBerry Store!</a>
+          Welcome to <a href="https://bb.sz7.me">BBS Store!</a>
         </h1>
         <div className="grid">
           <a href="https://www.github.com/qnxdev/bbstore" className="card">
             <h3>Source Code &rarr;</h3>
-            <p>Contribute to BlackBerry Store</p>
+            <p>Contribute to BBS Store</p>
           </a>
 
           <a href="https://developer.blackberry.com" className="card">
