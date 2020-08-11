@@ -142,7 +142,7 @@ export const AppData =
         "name": "Taken Camera App",
         "download": "Taken-1_2_1_1.bar",
         "git": "http://www.toysoft.ca/bb10.html",
-        "icon": "TakenCamera.jpg",
+        "icon": "TakenCamera.png",
         "vendor": "ToySoft",
         "rating": 5,
         "version": "1.2.1.1",
