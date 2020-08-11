@@ -114,7 +114,11 @@ export const AppData =
                 "name": "Anonymous",
                 "rated": 3.0,
                 "review": "Not Bad"
-            },{
+            }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },
+    {
         "appid": "0006",
         "name": "GeoToolBox",
         "download": "GeoToolBoxUI-1_0_3_1.bar",
