@@ -164,5 +164,51 @@ export const AppData =
             }
         ],
         "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },{
+        "appid": "0008",
+        "name": "BuzzOff - CallerID Blocker",
+        "download": "BuzzOffUI-1_2_0_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "BuzzOff.png",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "1.2.0.1",
+        "description": "Caller ID Blocker",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },{
+        "appid": "0009",
+        "name": "Camera Organizer - Camera App",
+        "download": "CameraOrganizer-3_0_1_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "CameraOrganizer.png",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "3.0.1.1",
+        "description": " Camera Organizer App",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ],
+        "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
     }
 ];
