@@ -192,7 +192,7 @@ export const AppData =
         "name": "Camera Organizer - Camera App",
         "download": "CameraOrganizer-3_0_1_1.bar",
         "git": "http://www.toysoft.ca/bb10.html",
-        "icon": "CameraOrganizer.png",
+        "icon": "CameraOrganizer.jpg",
         "vendor": "ToySoft",
         "rating": 5,
         "version": "3.0.1.1",
