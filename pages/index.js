@@ -3,9 +3,9 @@ import { AppData } from '../appdata';
 /*import { GameData } from '../gamedata';*/
 
 export default function Home() {
-  const list = ['0001', '0002', '0003', '0004']
+  const getNew = () => {let arrivals=[];for(let i=0;i<5;i++){arrivals.push(AppData[i]);}return arrivals;};
   const toprated = AppData.filter(app => app.appid == '0001' || app.appid == '0002' || app.appid == '0003' || app.appid == '0010' || app.appid == '0011');
-  const arrivals = () => {let arrivals=[];for(let i=0;i<5;i++){arrivals.push(AppData[i]);}return arrivals;};
+  const arrivals = getNew();
   
   return (
     <Page title={`BBS Store | BB10 Application Store`}>
@@ -33,7 +33,7 @@ export default function Home() {
         <div className='top'>
           <h4 className='type'>Top Rated</h4>
           <div className='array'>
-            {showcase.map(app => (
+            {toprated.map(app => (
               <a href={`/apps/` + app.appid} id={(app.appid == '0004' || app.appid == '0005') ? ('none') : ('')} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
@@ -49,7 +49,7 @@ export default function Home() {
         <div className='new'>
           <h4 className='type'>New Arrivals</h4>
           <div className='array'>
-            {showcase.map(app => (
+            {arrivals.map(app => (
               <a href={`/apps/` + app.appid} id={(app.appid == '0004' || app.appid == '0005') ? ('none') : ('')} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
