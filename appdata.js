@@ -1,6 +1,52 @@
 export const AppData =
 [
     {
+        "appid": "0010",
+        "name": "WhatsApp Android apk",
+        "download": "WhatsApp.apk",
+        "git": "https://whatsapp.com/android",
+        "icon": "WhatsApp.png",
+        "vendor": "WhatsApp Inc.",
+        "rating": 5,
+        "version": "1.2.471.6000",
+        "description": "Compatible apk for BlackBerry 10. WhatsApp Messenger Version 2.20.197.16",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
+        "appid": "0011",
+        "name": "Telegram X Android apk",
+        "download": "TelegramX.apk",
+        "git": "https://github.com/peter-iakovlev/TelegramCore",
+        "icon": "TelegramX.png",
+        "vendor": "Telegram Org.",
+        "rating": 5,
+        "version": "1.0.136.1010",
+        "description": "Compatible apk for BlackBerry 10. Telegram X 0.22.8.1361 (arm-v7a) (Android 4.1+)",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
         "appid": "0001",
         "name": "Bird10 Twitter Client",
         "download": "Bird10.bar",
