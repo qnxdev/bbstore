@@ -4,7 +4,9 @@ import { AppData } from '../appdata';
 
 export default function Home() {
   const list = ['0001', '0002', '0003', '0004']
-  const showcase = AppData.filter(app => app.appid == '0001' || app.appid == '0002' || app.appid == '0003' || app.appid == '0004' || app.appid == '0005');
+  const toprated = AppData.filter(app => app.appid == '0001' || app.appid == '0002' || app.appid == '0003' || app.appid == '0010' || app.appid == '0011');
+  const arrivals = () => {let arrivals=[];for(let i=0;i<5;i++){arrivals.push(AppData[i]);}return arrivals;};
+  
   return (
     <Page title={`BBS Store | BB10 Application Store`}>
       <main>
