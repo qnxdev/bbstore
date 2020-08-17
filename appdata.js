@@ -3,7 +3,7 @@ export const AppData =
     {
         "appid": "0010",
         "name": "WhatsApp Android apk",
-        "download": "WhatsApp.apk",
+        "download": "https://www.whatsapp.com/android/",
         "git": "https://whatsapp.com/android",
         "icon": "WhatsApp.png",
         "vendor": "WhatsApp Inc.",
