@@ -1,6 +1,98 @@
 export const AppData =
 [
     {
+        "appid": "0015",
+        "name": "Power Tools",
+        "download": "Power_Tools-7_7_4_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "PowerToolsToySoft.png",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "4.2.0.1",
+        "description": "Power Tools system utility tool",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
+        "appid": "0014",
+        "name": "Picture Time Stamp",
+        "download": "PictureTimeStamp-4_2_0_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "PictureStampToySoft.png",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "4.2.0.1",
+        "description": "Picture Time Stamp - Time stamp pictures",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
+        "appid": "0013",
+        "name": "Signal Logger",
+        "download": "SignalLogger-2_1_1_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "SignalLoggerToySoft.png",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "2.1.1.1",
+        "description": "Signal Logger - Check your cell signal",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
+        "appid": "0012",
+        "name": "Video Pro ",
+        "download": "VideoPro-1_2_1_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "VideoProToySoft.png",
+        "vendor": "ToySoft",
+        "rating": 5,
+        "version": "1.2.1.1",
+        "description": "Video Pro video app with Live FX",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
         "appid": "0010",
         "name": "WhatsApp Android apk",
         "download": "https://www.whatsapp.com/android/",
