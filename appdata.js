@@ -146,7 +146,7 @@ export const AppData =
         "icon": "Bird10.png",
         "vendor": "Simone Dassi",
         "rating": 5,
-        "version": "2.4.0.0",
+        "version": "2.5.0.0",
         "description": "Bird10 Native Twitter client for BlackBerry 10.",
         "reviews": [
             {
@@ -164,12 +164,12 @@ export const AppData =
     {
         "appid": "0002",
         "name": "BBTube Youtube Client",
-        "download": "BBtube.bar",
+        "download": "BBTube.bar",
         "git": "hhttps://github.com/AlexeyGurevsky/bbtube",
         "icon": "BBtube.png",
         "vendor": "Alexey Gurevski",
         "rating": 2.5,
-        "version": "1.3.2.3",
+        "version": "1.3.2.4",
         "description": "BBtube Native YouTube client made with just plain C++.",
         "reviews": [
             {
