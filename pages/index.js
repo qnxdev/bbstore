@@ -34,7 +34,7 @@ export default function Home() {
           <h4 className='type'>Top Rated</h4>
           <div className='array'>
             {toprated.map(app => (
-              <a href={`/apps/` + app.appid} id={(app.appid == '0004' || app.appid == '0005') ? ('none') : ('')} key={app.appid} className='item'>
+              <a href={`/apps/` + app.appid} id={(app.appid == '0010' || app.appid == '0011') ? ('none') : ('')} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
@@ -50,7 +50,7 @@ export default function Home() {
           <h4 className='type'>New Arrivals</h4>
           <div className='array'>
             {arrivals.map(app => (
-              <a href={`/apps/` + app.appid} id={(app.appid == '0004' || app.appid == '0005') ? ('none') : ('')} key={app.appid} className='item'>
+              <a href={`/apps/` + app.appid} id={(app.appid == arrivals[3].appid || app.appid == arrivals[4].appid) ? ('none') : ('')} key={app.appid} className='item'>
                 <img src={'/' + app.icon} alt='Icon' className='icon' />
                 <h4 className='apptext'>{app.name.length < 15 ? (app.name) : (app.name.slice(0, 15) + `..`)}</h4>
               </a>
