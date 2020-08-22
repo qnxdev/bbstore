@@ -109,7 +109,7 @@ export default function Header() {
                           color: #0070f3;
                         }
                         .flex {
-                            margin-left: 40%;
+                            margin-left: 60%;
                         }
                     }
                     @media (max-width: 480px) {
@@ -118,7 +118,12 @@ export default function Header() {
                             
                         }
                         .flex {
-                            margin-left: 25%;
+                            margin-left: 46%;
+                        }
+                    }
+                    @media (max-width: 360px) {
+                        .flex {
+                            margin-left: 35%;
                         }
                     }
                 `}
