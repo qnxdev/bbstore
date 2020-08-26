@@ -22,7 +22,7 @@ export const AppData =
                 "review": "Not Bad"
             }
         ]        
-    }
+    },
     {
         "appid": "0015",
         "name": "Power Tools",
