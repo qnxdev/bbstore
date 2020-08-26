@@ -1,4 +1,4 @@
-export const AppData = JSON.parse('
+export const AppData = 
 [
     {
         "appid": "0015",
@@ -349,6 +349,4 @@ export const AppData = JSON.parse('
         ],
         "scr": ["image1.jpg", "image2.jpg", "image3.jpg"]
     }
-]
-                                  
-');
+];
