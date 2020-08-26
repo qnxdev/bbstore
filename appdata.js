@@ -1,6 +1,29 @@
 export const AppData = 
 [
     {
+        "appid": "0016",
+        "name": "Flash Browser",
+        "download": "flashbrowser-1.0.0.23.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "flash-browser.png",
+        "vendor": "FileArchiveHaven",
+        "rating": null,
+        "version": "1.0.0.23",
+        "description": "BlackBerry10 Browser with shockWave flash support",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]        
+    }
+    {
         "appid": "0015",
         "name": "Power Tools",
         "download": "Power_Tools-7_7_4_1.bar",
