@@ -1,6 +1,29 @@
 export const AppData = 
 [
     {
+        "appid": "0017",
+        "name": "Star Player",
+        "download": "StarPlayer-1_32_0_45.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "star-player.png",
+        "vendor": "Allstar Software",
+        "rating": 5,
+        "version": "1.32.0.45",
+        "description": "Feature Packed powerful media player",
+        "reviews": [
+            {
+                "name": "Anonymous",
+                "rated": 5.0,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3.0,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
         "appid": "0016",
         "name": "Flash Browser",
         "download": "flashbrowser-1.0.0.23.bar",
