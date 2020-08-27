@@ -1,6 +1,50 @@
 export const AppData = 
 [
     {
+        "appid": "0019",
+        "name": "Custom Shortcuts",
+        "download": "HomescreenShortcuts-1_41_0_1.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "custom-shortcuts.png",
+        "vendor": "Allstar Software",
+        "rating": 4,
+        "version": "1.41",
+        "description": "Create homescreen shortcuts to your own files.",
+        "reviews": [{
+            "name": "Anonymous",
+            "rated": 5,
+            "review": "Good App"
+          },
+          {
+            "name": "Anonymous",
+            "rated": 3,
+            "review": "Not Bad"
+          }
+        ],
+      },
+      {
+        "appid": "0018",
+        "name": "Nightly Clock",
+        "download": "NightlyClock-1_82_0_5.bar",
+        "git": "http://www.toysoft.ca/bb10.html",
+        "icon": "nightly-clock.png",
+        "vendor": "Allstar Software",
+        "rating": 3,
+        "version": "1.82",
+        "description": " Nightly clock is a truly customisable Night Time Clock, give it a try, you won't regret it.",
+        "reviews": [{
+                "name": "Anonymous",
+                "rated": 5,
+                "review": "Good App"
+            },
+            {
+                "name": "Anonymous",
+                "rated": 3,
+                "review": "Not Bad"
+            }
+        ]
+    },
+    {
         "appid": "0017",
         "name": "Star Player",
         "download": "StarPlayer-1_32_0_45.bar",
@@ -8,7 +52,7 @@ export const AppData =
         "icon": "star-player.png",
         "vendor": "Allstar Software",
         "rating": 5,
-        "version": "1.32.0.45",
+        "version": "1.32",
         "description": "Feature Packed powerful media player",
         "reviews": [
             {
@@ -30,9 +74,9 @@ export const AppData =
         "git": "http://www.toysoft.ca/bb10.html",
         "icon": "flash-browser.png",
         "vendor": "FileArchiveHaven",
-        "rating": null,
-        "version": "1.0.0.23",
-        "description": "BlackBerry10 Browser with shockWave flash support",
+        "rating": 3,
+        "version": "1.0",
+        "description": "BlackBerry10 Browser with shockWave flash support : Requires yeah.so",
         "reviews": [
             {
                 "name": "Anonymous",
