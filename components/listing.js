@@ -34,7 +34,7 @@ export default function Listing({ data, title, url }) {
                     margin: auto 0 auto 70%;
                     background: #000;
                     color: #fff;
-                    border: 1px solid #222;
+                    border: 1px solid #0070f3;
                     border-radius: 7px;
                     text-align: center;
                     font-size: 1rem;
