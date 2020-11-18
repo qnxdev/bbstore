@@ -259,7 +259,7 @@ export const AppData =
         "icon": "BBtube.png",
         "vendor": "Alexey Gurevski",
         "rating": 2.5,
-        "version": "1.3.2.6",
+        "version": "1.3.2.7",
         "description": "BBtube Native YouTube client made with just plain C++.",
         "reviews": [
             {
