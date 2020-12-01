@@ -1,6 +1,23 @@
 export const AppData = 
 [
     {
+        "appid": "0020",
+        "name": "Dukto",
+        "download": "https://web.archive.org/web/20140413121413/http://qtness.com/Playbook/dukto.bar",
+        "git": "https://github.com/guilhem/dukto",
+        "icon": "custom-shortcuts.png",
+        "vendor": "Emanuele Colombo",
+        "rating": 4,
+        "version": "5",
+        "description": "Transfer file over Wifi to any other device including Windows, Linux, Mac, Symbian, Meego.",
+        "reviews": [{
+            "name": "Berryamin",
+            "rated": 5,
+            "review": "Excellent Multiplatform App to share files flawlessly over the LAN"
+          },
+        ],
+      },
+    {
         "appid": "0019",
         "name": "Custom Shortcuts",
         "download": "HomescreenShortcuts-1_41_0_1.bar",
