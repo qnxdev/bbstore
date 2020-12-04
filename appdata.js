@@ -5,7 +5,7 @@ export const AppData =
         "name": "Dukto",
         "download": "https://web.archive.org/web/20140413121413/http://qtness.com/Playbook/dukto.bar",
         "git": "https://github.com/guilhem/dukto",
-        "icon": "custom-shortcuts.png",
+        "icon": "Dukto.png",
         "vendor": "Emanuele Colombo",
         "rating": 4,
         "version": "5",
