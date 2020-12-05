@@ -10,6 +10,8 @@
   "dependencies": {
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.1.1"
   }
 }
