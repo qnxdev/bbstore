@@ -3,7 +3,7 @@ export const AppData =
     {
         "appid": "0020",
         "name": "Dukto",
-        "download": "https://web.archive.org/web/20140413121413/http://qtness.com/Playbook/dukto.bar",
+        "download": "dukto.bar",
         "git": "https://github.com/guilhem/dukto",
         "icon": "Dukto.png",
         "vendor": "Emanuele Colombo",
