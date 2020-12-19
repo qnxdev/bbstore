@@ -253,7 +253,7 @@ export const AppData =
         "icon": "Bird10.png",
         "vendor": "Simone Dassi",
         "rating": 5,
-        "version": "2.7.0.0",
+        "version": "2.8.0.0",
         "description": "Bird10 Native Twitter client for BlackBerry 10.",
         "reviews": [
             {
