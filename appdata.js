@@ -249,7 +249,7 @@ export const AppData =
         "appid": "0001",
         "name": "Bird10 Twitter Client",
         "download": "Bird10.bar",
-        "git": "https://github.com/SimeDax",
+        "git": "https://github.com/SimoDax/Bird10",
         "icon": "Bird10.png",
         "vendor": "Simone Dassi",
         "rating": 5,
