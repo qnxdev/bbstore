@@ -1,6 +1,22 @@
 export const AppData = 
 [
     {
+        "appid": "0021",
+        "name": "Doo",
+        "download": "doo-1_11_0_1.bar",
+        "icon": "doo.jpg",
+        "vendor": "Cellninja",
+        "rating": 4,
+        "version": "1.11.0.1",
+        "description": "doo is and headless shortcut creator that allows you to doo things faster, more efficiently.",
+        "reviews": [{
+            "name": "Berryamin",
+            "rated": 4,
+            "review": "Vital application for you Blackberry. I use it mostly to turn on the flashlight via power button"
+          },
+        ],
+      },    
+    {
         "appid": "0020",
         "name": "Dukto",
         "download": "dukto.bar",
