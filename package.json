@@ -1,6 +1,6 @@
 {
   "name": "bbstore",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.4.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
     "dotenv": "^8.2.0",
-    "firebase": "^8.1.1"
+    "firebase": "^8.2.2",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
