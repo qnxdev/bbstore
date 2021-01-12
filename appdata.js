@@ -1,23 +1,6 @@
 export const AppData = 
 [
     {
-        "appid": "0022",
-        "name": "BBTube",
-        "download": "BBTube-1_3_3_1.bar",
-        "git": "https://github.com/AlexeyGurevsky/bbtube",
-        "icon": "doo.jpg",
-        "vendor": "Alexey Gurevski",
-        "rating": 4,
-        "version": "1.3.3.1",
-        "description": "Watch Youtube videos",
-        "reviews": [{
-            "name": "Berryamin",
-            "rated": 5,
-            "review": "Must have to watch Youtube Videos"
-          },
-        ],
-    },
-    {
         "appid": "0021",
         "name": "Doo",
         "download": "doo-1_11_0_1.bar",
