@@ -16,6 +16,7 @@ export const AppData =
             "review": "Must have to watch Youtube Videos"
           },
         ],
+    },
     {
         "appid": "0021",
         "name": "Doo",
@@ -32,6 +33,7 @@ export const AppData =
           },
         ],
       },    
+    /*
     {
         "appid": "0020",
         "name": "Dukto",
@@ -49,6 +51,7 @@ export const AppData =
           },
         ],
       },
+    */
     {
         "appid": "0019",
         "name": "Custom Shortcuts",
