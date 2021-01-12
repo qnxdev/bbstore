@@ -6,7 +6,7 @@ export default function Listing({ data, title, url }) {
     const handleChange = e => {
         setSearchTerm(e.target.value);
     };
-    React.useEffect(() => {
+    useEffect(() => {
         setResObj(data);
         const results = data.filter(
             function(item) 
