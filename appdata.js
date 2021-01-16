@@ -4,7 +4,7 @@ export const AppData =
         "appid": "0021",
         "name": "Doo",
         "download": "doo-1_11_0_1.bar",
-        "icon": "doo.jpg",
+        "icon": "doo.png",
         "vendor": "Cellninja",
         "rating": 4,
         "version": "1.11.0.1",
