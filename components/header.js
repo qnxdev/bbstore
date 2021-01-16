@@ -5,7 +5,7 @@ export default function Header() {
         <div className='header'>
             <div id='hcont'>
                 <Link href='/'>
-                    <p id='Logo'>BBS Store</p>
+                    <p id='Logo'>BlackBerry Store</p>
                 </Link>
                     <Link href='/apps' className='nomob'>
                         <p className='headlink nomob'>Apps</p>
