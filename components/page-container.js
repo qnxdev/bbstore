@@ -8,7 +8,7 @@ export default function PageContainer({ title, description, children }) {
                 {description !== false && (
                     <meta
                         name="description"
-                        content={description || `The new storefront for downloading and sharing apps for BlackBerry 10.`}
+                        content={description || `The storefront for downloading and sharing BlackBerry 10 Apps.`}
                     />
                 )}
             </Head>
