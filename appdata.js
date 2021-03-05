@@ -16,25 +16,23 @@ export const AppData =
           },
         ],
       },    
-    /*
     {
         "appid": "0020",
-        "name": "Dukto",
-        "download": "dukto.bar",
-        "git": "https://github.com/guilhem/dukto",
-        "icon": "Dukto.png",
-        "vendor": "Emanuele Colombo",
-        "rating": 4,
-        "version": "5",
-        "description": "Transfer file over Wifi to any other device including Windows, Linux, Mac, Symbian, Meego.",
+        "name": "Instagram Lite Android",
+        "download": "InstagramLite.apk",
+        "git": "https://t.me/BlackBerry10OS",
+        "icon": "InstagramLite.png",
+        "vendor": "Instagram",
+        "rating": 5,
+        "version": "1.2.4316",
+        "description": "Enjoy full Instagram features on your BlackBerry with Instagram Lite Android. Fast and Lightweight app sized 2MB only.",
         "reviews": [{
-            "name": "Berryamin",
+            "name": "ASGX",
             "rated": 5,
-            "review": "Excellent Multiplatform App to share files flawlessly over the LAN"
+            "review": "Coolest Instgram App for BB10. It's really fast and smooth"
           },
         ],
       },
-    */
     {
         "appid": "0019",
         "name": "Custom Shortcuts",
