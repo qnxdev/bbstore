@@ -12,7 +12,7 @@ export default function Page({ title, description, children }) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Copyright &copy; 2020 <a className='blue'>ASG&reg;</a>. All rights reserved.
+                    Copyright &copy; 2020 <span className='blue'>ASG&reg;</span>. All rights reserved.
                 </a>
             </footer>
             <style jsx>{`

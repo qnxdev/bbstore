@@ -7,7 +7,7 @@ import { ToolData } from '../../tooldata';
 export default function AppPage() {
     const router = useRouter()
     const id = router.asPath.slice(7);
-    const app = ToolData.find(app => app.appid === id);
+    const app = ToolData.find(app => app.id === id);
     if (app) {
         return (
             <Page title={app.name + ` - BlackBerry Store`}>

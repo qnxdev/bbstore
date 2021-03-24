@@ -1,8 +1,9 @@
-import Icon from "./icon";
+import {XIcon} from "./icon";
 import Review from "./review";
 import setStar from "./star.js";
 
 export default function MinContent({ data }) {
+    console.log("here");
     const star = setStar(data.rating);
     return (
         <div>
@@ -62,7 +63,7 @@ export default function MinContent({ data }) {
                 `}
             </style>
             <div className='cmain'>
-                <Icon src={data.icon} alt={data.name} />
+                <XIcon src={data.icon} alt={data.name} />
                 <div className="desc">
                     <h2>{data.name}</h2>
                     <h4 className='vendor'>{data.vendor}</h4>
