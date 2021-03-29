@@ -211,7 +211,7 @@ export default function Uploader({ data, setData, type, firebase, isUpdate }) {
       />
 
       <div className="uploadInput">
-        {isUpdate ? "Update" : "Add"} Icon file <br />
+        {isUpdate ? "Update" : "Add"} Icon file (128px x 128px)<br />
         {data.icon && !files.icon && (
           <div>
             <br />
