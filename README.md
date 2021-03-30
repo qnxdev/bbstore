@@ -16,17 +16,12 @@ Select App/Game in toggle button
 
 Enter these details
 
-_Name:
-
-_Version:
-
-_Description:
-
-_Developer/Vendor Name:
-
-_Add .bar or .apk file:
-
-_Add Icon file (128px x 128px):_
+_Name:_\
+_Version:_\
+_Description:_\
+_Developer/Vendor Name:_\
+_Add .bar or .apk file:_\
+_Add Icon file (128px x 128px):_\
 
 
 Updating App/Game:
@@ -39,17 +34,12 @@ Click on Edit button (Top Right)
 
 You can edit these details
 
-_Name:
-
-_Version:
-
-_Description:
-
-_Developer/Vendor Name:
-
-_.bar or .apk file:
-
-_Icon file (128px x 128px):_
+_Name:_\
+_Version:_\
+_Description:_\
+_Developer/Vendor Name:_\
+_.bar or .apk file:_\
+_Icon file (128px x 128px):_\
 
 
 [Support Community Crackberry forum](https://forums.crackberry.com/blackberry-10-os-f269/blackberry-store-new-storefront-bb10-https-bb-sz7-me-1186577/)
