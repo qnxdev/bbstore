@@ -8,7 +8,7 @@
 
 To add your App or update an app see the instructions below.
 
-##Adding App/Game##
+## Adding App/Game
 
 Go to [https://bbstore.now.sh/upload](https://bbstore.now.sh/upload)
 
@@ -23,7 +23,7 @@ _Add .bar or .apk file:_\
 _Add Icon file (128px x 128px):_
 
 
-##Updating App/Game##
+## Updating App/Game
 
 Go to [https://bbstore.now.sh/apps](https://bbstore.now.sh/apps) or [https://bbstore.now.sh/games](https://bbstore.now.sh/games)
 
