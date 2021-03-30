@@ -74,6 +74,7 @@ export default function Listing({ data, title, url, tools }) {
         }
         .icon {
           width: 75%;
+          max-width: 128px;
         }
         .apptext {
           text-align: center;
