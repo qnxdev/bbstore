@@ -11,29 +11,45 @@ To add your App or Update an app few instructions below.
 Adding App/Game:
 
 Go to [https://bbstore.now.sh/upload](https://bbstore.now.sh/upload)
+
 Select App/Game in toggle button
+
 Enter these details
+
 _Name:
-Version:
-Description:
-Developer/Vendor Name:
-Add .bar or .apk file:
-Add Icon file (128px x 128px):_
+
+_Version:
+
+_Description:
+
+_Developer/Vendor Name:
+
+_Add .bar or .apk file:
+
+_Add Icon file (128px x 128px):_
 
 
 Updating App/Game:
 
 Go to [https://bbstore.now.sh/apps](https://bbstore.now.sh/apps) or [https://bbstore.now.sh/games](https://bbstore.now.sh/games)
+
 Select the app to be edited/updated
+
 Click on Edit button (Top Right)
 
 You can edit these details
+
 _Name:
-Version:
-Description:
-Developer/Vendor Name:
-.bar or .apk file:
-Icon file (128px x 128px):_
+
+_Version:
+
+_Description:
+
+_Developer/Vendor Name:
+
+_.bar or .apk file:
+
+_Icon file (128px x 128px):_
 
 
 [Support Community Crackberry forum](https://forums.crackberry.com/blackberry-10-os-f269/blackberry-store-new-storefront-bb10-https-bb-sz7-me-1186577/)
