@@ -8,12 +8,11 @@
 
 To add your App or Update an app few instructions below.
 
-***Adding App/Game:
+***Adding App/Game:***
 
 Go to [https://bbstore.now.sh/upload](https://bbstore.now.sh/upload)
 
-Select App/Game in toggle button
-
+Select App/Game in toggle button\
 Enter these details
 
 _Name:_\
@@ -24,14 +23,12 @@ _Add .bar or .apk file:_\
 _Add Icon file (128px x 128px):_
 
 
-***Updating App/Game:
+***Updating App/Game:***
 
 Go to [https://bbstore.now.sh/apps](https://bbstore.now.sh/apps) or [https://bbstore.now.sh/games](https://bbstore.now.sh/games)
 
-Select the app to be edited/updated
-
-Click on Edit button (Top Right)
-
+Select the app to be edited/updated\
+Click on Edit button (Top Right)\
 You can edit these details
 
 _Name:_\
