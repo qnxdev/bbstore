@@ -5,6 +5,43 @@
 
 [Visit the store](https://bb.sz7.me)
 
+
+To add your App or update an app see the instructions below.
+
+## Adding App/Game
+
+Go to [https://bbstore.now.sh/upload](https://bbstore.now.sh/upload)
+
+Select App/Game in toggle button\
+Enter these details
+
+_Name:_\
+_Version:_\
+_Description:_\
+_Developer/Vendor Name:_\
+_Add .bar or .apk file:_\
+_Add Icon file (128px x 128px):_
+
+
+## Updating App/Game
+
+Go to [https://bbstore.now.sh/apps](https://bbstore.now.sh/apps) or [https://bbstore.now.sh/games](https://bbstore.now.sh/games)
+
+Select the app to be edited/updated\
+Click on Edit button (Top Right)\
+You can edit these details
+
+_Name:_\
+_Version:_\
+_Description:_\
+_Developer/Vendor Name:_\
+_.bar or .apk file:_\
+_Icon file (128px x 128px):_
+
+
+[Support Community Crackberry forum](https://forums.crackberry.com/blackberry-10-os-f269/blackberry-store-new-storefront-bb10-https-bb-sz7-me-1186577/)
+
+
 In the project directory, you can run:
 
 ```bash
