@@ -50,6 +50,8 @@ export default function Listing({ data, title, url, tools }) {
           border-radius: 15px;
           padding: 1rem;
           z-index: 3;
+          align-items: center;
+          justify-content: center;
         }
         .type {
           margin: 1rem 5rem;
@@ -73,7 +75,7 @@ export default function Listing({ data, title, url, tools }) {
           border-color: #0070f3;
         }
         .icon {
-          width: 75%;
+          width: 128px;
           max-width: 128px;
         }
         .apptext {
