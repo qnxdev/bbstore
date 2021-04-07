@@ -64,13 +64,6 @@ export default function Uploader({ data, setData, type, firebase, isUpdate }) {
       setLoad(false);
       try {
         if (isUpdate) {
-          console.log({
-            id: data.id,
-            vendor: data.vendor !== "" ? data.vendor : "3rd Party Developer",
-            icon: upload1!="0" ? upload1 : data.icon,
-            download: upload2!="0" ? upload2 : data.download,
-            ...data,
-          });
           firebase
             .firestore()
             .collection(type == "App" ? "apps" : "games")
@@ -79,8 +72,8 @@ export default function Uploader({ data, setData, type, firebase, isUpdate }) {
               ...data,
               id: data.id,
               vendor: data.vendor !== "" ? data.vendor : "3rd Party Developer",
-              icon: upload1!="" ? upload1 : data.icon,
-              download: upload2!="" ? upload2 : data.download,
+              icon: upload1!="0" ? upload1 : data.icon,
+              download: upload2!="0" ? upload2 : data.download,
             })
             .then(() => {
               router.push(`/apps/${data.id}`);
@@ -113,7 +106,6 @@ export default function Uploader({ data, setData, type, firebase, isUpdate }) {
             });
         }
       } catch (e) {
-        console.log(e);
         setErr("Connection failure");
       }
     }
