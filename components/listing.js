@@ -158,7 +158,7 @@ export default function Listing({ data, title, url, tools }) {
         </div>
         <div className="top">
           <div className="array">
-            {resObj.map((app) => (
+            {resObj.map((app) => ( !app.disabled &&
               <a href={url + app.id} className="item" key={app.id}>
                 <img
                   src={tools ? "/" + app.icon : app.icon}
