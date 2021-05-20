@@ -3,14 +3,14 @@
 <h4>The new storefront for BlackBerry 10</h4>
 <h2>&copy;ASG</h2>
 
-[Visit the store](https://bb.sz7.me)
+[Visit the store](https://bbstore.vercel.app/)
 
 
 To add your App or update an app see the instructions below.
 
 ## Adding App/Game
 
-Go to [https://bbstore.now.sh/upload](https://bbstore.now.sh/upload)
+Go to [https://bbstore.now.sh/upload](https://bbstore.vercel.app/upload)
 
 Select App/Game in toggle button\
 Enter these details
@@ -25,7 +25,7 @@ _Add Icon file (128px x 128px):_
 
 ## Updating App/Game
 
-Go to [https://bbstore.now.sh/apps](https://bbstore.now.sh/apps) or [https://bbstore.now.sh/games](https://bbstore.now.sh/games)
+Go to [https://bbstore.vercel.app/apps](https://bbstore.vercel.app/apps) or [https://bbstore.vercel.app/games](https://bbstore.vercel.app/games)
 
 Select the app to be edited/updated\
 Click on Edit button (Top Right)\
