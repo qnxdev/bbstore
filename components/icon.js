@@ -6,6 +6,8 @@ export function Icon({ src }) {
                     img {
                         margin: 1rem;
                         width: 70%;
+                        max-width: 127px;
+                        max-height: 127px;
                     }
                 `}
             </style>

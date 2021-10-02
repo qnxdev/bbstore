@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FileType from "./FileType";
 import {Icon} from "./icon";
 import Review from "./review";
 import setStar from "./star.js";
@@ -110,6 +111,7 @@ export default function Content({ data,type }) {
             <div className='detail'>
                 <div className='details'>
                     <h4>Version: {data.version}</h4>
+                    <FileType type={data.filetype || "ZIP"}/>
                     <p>{data.description}</p>
                     {/*<div>
                     <h3>Screenshots</h3>

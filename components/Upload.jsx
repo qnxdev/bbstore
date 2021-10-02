@@ -4,6 +4,7 @@ import FileUploader from "react-firebase-file-uploader";
 import Loader from "../components/Loader";
 import Page from "../components/page";
 import { firebaseInit } from "../lib/firebase";
+import { FileTypeSelector } from "./FileType";
 
 export default function Uploader({ data, setData, type, firebase, isUpdate }) {
   const router = useRouter();
@@ -14,6 +15,8 @@ export default function Uploader({ data, setData, type, firebase, isUpdate }) {
   const [upload1, setUpload1] = useState("");
   const [upload2, setUpload2] = useState("");
   const [files, setFiles] = useState({});
+  const [filetype, setFiletype] = useState("");
+
   let iconUploader;
   let appUploader;
   const handleUpload = async () => {
@@ -140,6 +143,12 @@ export default function Uploader({ data, setData, type, firebase, isUpdate }) {
         onChange={(e) => setData({ ...data, name: e.target.value })}
         value={data.name}
       />
+        <p>
+          <br />
+          Select File Type
+        </p>
+        <FileTypeSelector filetype={data.filetype || ""} 
+        setFiletype={(filetype) => setData({ ...data, filetype: filetype })}/>
       {isUpdate ? (
         <p>
           <br />
